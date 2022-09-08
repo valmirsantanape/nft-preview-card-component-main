@@ -49,30 +49,27 @@ picture > img:hover{
     font-size: 14px;
     color: var(--Soft-blue);
 }
-aside{
-    font-display: flex;
-    justify-content: space-between;
-}
+
 .eth-days{
-    padding: 15px 0;
+    padding: 20px 3px;
     display: flex;
     justify-content: space-between;
 }
 .eth{
-    display: flex;
-    
+   display: flex;
 }
 .eth img{
     padding-right: 3px;
-    align-items: center;
 }
 .days{
     display: flex;
     align-items: center;
     color: var(--Cyan);
 }
+
 .days img{
     padding-right: 3px;
+    align-items: center;
 }
 .eth-days .days{
     display: flex;
