@@ -1,0 +1,81 @@
+*{margin: 0; padding: 0;}
+
+:root{
+/*### Primary*/
+
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+
+/*### Neutral */
+
+--Very-dark-blue-main: hsl(217, 54%, 11%);
+--Very-dark-blue-card: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 20px auto;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10%;
+    background-color: var(--Very-dark-blue-main);
+    flex-direction: column;
+}
+main{
+    margin: auto;
+    background-color: var(--Very-dark-blue-card);
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 2%;
+    font-size: 18px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.373);
+}
+picture > img{
+    border-radius: 2%;
+    width: 100%;
+}
+picture > img:hover{
+    background-image: url(images/icon-view.svg);
+    background-color: var(--Cyan);
+}
+.text h4{
+    padding: 15px 0;
+    color: var(--White);
+}
+.text p{
+    color: var(--Soft-blue);
+}
+.eth-days{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.eth-days .ETH{
+    color: var(--Cyan);
+}
+.eth-days .days{
+    display: flex;
+    align-items: center;
+    color: var(--Soft-blue);
+}
+.separador{
+    border-top: 1px solid var(--Soft-blue);
+}
+.creator{
+    font-size: 1rem;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+.creator > img{
+    height: 1.6rem;
+    border: 0.1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.creator strong{
+    color: white;
+}
