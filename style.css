@@ -46,15 +46,33 @@ picture > img:hover{
     color: var(--White);
 }
 .text p{
+    font-size: 14px;
     color: var(--Soft-blue);
+}
+aside{
+    font-display: flex;
+    justify-content: space-between;
 }
 .eth-days{
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
 }
-.eth-days .ETH{
+.eth{
+    display: flex;
+    align-items: center;
+}
+.eth img{
+    padding-right: 3px;
+    align-items: center;
+}
+.days{
+    display: flex;
+    align-items: center;
     color: var(--Cyan);
+}
+.days img{
+    padding-right: 3px;
 }
 .eth-days .days{
     display: flex;
@@ -65,7 +83,8 @@ picture > img:hover{
     border-top: 1px solid var(--Soft-blue);
 }
 .creator{
-    font-size: 1rem;
+    font-size: 14px;
+    color: var(--Soft-blue);
     padding: 15px 0;
     display: flex;
     align-items: center;
