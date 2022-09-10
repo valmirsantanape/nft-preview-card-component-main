@@ -18,6 +18,7 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
     font-family: 'Raleway', sans-serif;
     padding-top: 130px;
