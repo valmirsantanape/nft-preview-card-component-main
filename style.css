@@ -14,13 +14,13 @@
 --White: hsl(0, 0%, 100%);
 }
 
-.attribution { font-size: 11px; text-align: center; margin: 20px auto;}
+.attribution { font-size: 11px; text-align: center; padding-top: 170px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
     font-family: 'Outfit', sans-serif;
     font-family: 'Raleway', sans-serif;
-    padding-top: 10%;
+    padding-top: 130px;
     background-color: var(--Very-dark-blue-main);
     flex-direction: column;
 }
